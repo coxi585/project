@@ -1,0 +1,70 @@
+{
+  "name": "Vision Pro X",
+  "description": "Premium dark theme with dynamic gold/plum contrast | By CURO",
+  "authors": [{"name": "CURO"}],
+
+  "semanticColors": {
+    // === TEXT HIERARCHY === //
+    "HEADER_PRIMARY": "#F8F5F0",  // Crisp ivory headers
+    "HEADER_SECONDARY": "#E2C78F",  // Vibrant gold subheaders
+    "TEXT_NORMAL": "#E6E4EF",  // Soft white main text
+    "TEXT_MUTED": "#B8A46A",  // Muted gold secondary text
+    "TEXT_LINK": "#C9B0E9",  // Luminous lavender links
+
+    // === INTERACTIVE ELEMENTS === //
+    "INTERACTIVE_NORMAL": "#E2C78F",  // Gold buttons
+    "INTERACTIVE_HOVER": "#F9CA7D",  // Sun-kissed gold hover
+    "INTERACTIVE_ACTIVE": "#D4BC85",  // Pressed gold state
+    "CHANNEL_TEXT_AREA_PLACEHOLDER": "#B8A46A",  // Gold placeholder
+
+    // === BACKGROUND DEPTH === //
+    "BACKGROUND_PRIMARY": "#0C0B0E",  // True black base
+    "BACKGROUND_SECONDARY": "#1A1724",  // Rich plum panels
+    "BACKGROUND_TERTIARY": "#100F12",  // Darker message areas
+    "BACKGROUND_ACCENT": "#554D70",  // Vibrant purple accents
+    "BACKGROUND_MODIFIER_HOVER": "#2A2638",  // Hover states
+    "BACKGROUND_MODIFIER_ACTIVE": "#3A3547",  // Active states
+
+    // === SPECIAL HIGHLIGHTS === //
+    "MENTION_FOREGROUND": "#EB7A9D",  // Vibrant pink mentions
+    "STATUS_POSITIVE": "#A0D9E0",  // Ice blue online status
+    "STATUS_DANGER": "#EB7A9D"  // Pink error states
+  },
+
+  "rawColors": {
+    // === GOLD PALETTE === //
+    "GOLD_100": "#E2C78F",  // Base gold
+    "GOLD_200": "#F9CA7D",  // Light gold
+    "GOLD_300": "#D4BC85",  // Dark gold
+
+    // === PLUM PALETTE === //
+    "PLUM_100": "#C9B0E9",  // Light lavender
+    "PLUM_200": "#1A1724",  // Dark panels
+    "PLUM_300": "#554D70",  // Purple accents
+
+    // === UTILITY === //
+    "DESTRUCTIVE": "#EB7A9D",
+    "SUCCESS": "#A0D9E0",
+    "WARNING": "#F9CA7D"
+  },
+
+  "plus": {
+    "iconpack": "vision-pro-x",
+    "icons": {
+      // === CORE ACTIONS === //
+      "ic_close": "#EB7A9D",  // Pink close
+      "ic_search": "#C9B0E9",  // Lavender search
+      "ic_settings": "#F9CA7D",  // Gold settings
+      
+      // === NAVIGATION === //
+      "ic_chevron_down": "#E2C78F",
+      "ic_arrow_back": "#C9B0E9",
+      
+      // === STATUS INDICATORS === //
+      "StatusOnline": "#A0D9E0",
+      "StatusDND": "#EB7A9D",
+      "StatusIdle": "#F9CA7D"
+    }
+  },
+  "spec": 2
+}
