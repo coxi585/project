@@ -1,0 +1,48 @@
+{
+  "name": "Purple Mobile Theme",
+  "description": "A beautiful purple theme for Discord mobile",
+  "version": "1.0.0",
+  "author": "YourName",
+  "theme": {
+    "colors": {
+      "primary": "#3a1a5c",
+      "secondary": "#2a1245",
+      "tertiary": "#1e0d35",
+      "accent": "#8a5ce6",
+      "primary-dark-100": "#2a1245",
+      "primary-dark-200": "#1e0d35",
+      "primary-dark-300": "#140927",
+      "primary-dark-400": "#0d051a",
+      "primary-dark-500": "#07020f",
+      "primary-dark-600": "#030107",
+      "primary-light-100": "#4d2580",
+      "primary-light-200": "#5f2e9c",
+      "primary-light-300": "#7237b8",
+      "primary-light-400": "#8540d4",
+      "primary-light-500": "#9850e6",
+      "primary-light-600": "#a561e8",
+      "header-primary": "#ffffff",
+      "header-secondary": "#d1b3ff",
+      "text-normal": "#e0d6eb",
+      "text-muted": "#b399d4",
+      "interactive-normal": "#c4a5ff",
+      "interactive-hover": "#d9c3ff",
+      "interactive-active": "#a37aff",
+      "interactive-muted": "#6a3d9c",
+      "background-primary": "#3a1a5c",
+      "background-secondary": "#2a1245",
+      "background-tertiary": "#1e0d35",
+      "background-accent": "#7d4dcc",
+      "background-floating": "#2a1245",
+      "background-mobile-primary": "#3a1a5c",
+      "background-mobile-secondary": "#2a1245",
+      "channeltextarea-background": "#2a1245"
+    },
+    "fonts": {
+      "primary": "Whitney, Helvetica Neue, Helvetica, Arial, sans-serif"
+    },
+    "meta": {
+      "preferred-format": "dark"
+    }
+  }
+}
