@@ -1,0 +1,66 @@
+:root {
+    --discord-blue: #5865F2;
+    --dark-bg: #23272A;
+    --card-bg: #2C2F33;
+    --text-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text-color);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-card, .tool-card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.btn-main, #spin-btn {
+    background-color: var(--discord-blue);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-main:hover, #spin-btn:hover {
+    background-color: #4752C4;
+    transform: scale(1.05);
+}
+
+/* Wheel Styles */
+.wheel-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#pointer {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0; height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid #ff4757;
+    z-index: 10;
+}
+
+canvas {
+    border-radius: 50%;
+    border: 8px solid #36393F;
+}
