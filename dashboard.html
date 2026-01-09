@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Lucky Wheel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <nav>
+            <h2>My Dashboard</h2>
+            <a href="index.html">Ieșire</a>
+        </nav>
+
+        <div class="tool-section">
+            <div class="tool-card">
+                <h3>🎡 Roata Norocului</h3>
+                <div class="wheel-container">
+                    <div id="pointer"></div>
+                    <canvas id="wheel" width="400" height="400"></canvas>
+                </div>
+                <button id="spin-btn">ÎNVÂRTE ROATA</button>
+                <h2 id="winner-text">Așteptare...</h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
