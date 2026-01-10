@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugg | Best Discord Selfbot</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <meta property="og:title" content="Iahturi - Hosting 24/7" />
+    <meta property="og:description" content="Iahturi best selfbot." />
+    <meta name="theme-color" content="#5865F2">
+</head>
+<body>
+    <div class="hero">
+        <div class="glass-card">
+            <div class="rocket-icon"></div>
+            
+            <h1>NexusSelf</h1>
+            <p>Cloud Hosting pe <code>iahturi.vercel.app</code></p>
+            
+            <ul class="feat-list" style="list-style: none; padding: 0;">
+                <li style="display: flex; align-items: center; justify-content: center; margin-bottom: 10px;">
+                    <div class="icon-shield"></div> 150+ Comenzi Premium
+                </li>
+                <li style="display: flex; align-items: center; justify-content: center; margin-bottom: 10px;">
+                    <div class="icon-shield"></div> Anti-Ban Protection
+                </li>
+            </ul>
+
+            <button onclick="login()" class="btn-discord">Connect with Discord</button>
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            const clientID = "1459539688598802506"; 
+            const redirect = encodeURIComponent("https://iahturi.vercel.app/dashboard.html");
+            const url = `https://discord.com/api/oauth2/authorize?client_id=${clientID}&redirect_uri=${redirect}&response_type=token&scope=identify`;
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
